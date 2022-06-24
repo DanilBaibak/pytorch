@@ -238,7 +238,6 @@ jobs:
     name: linux-bionic-rocm5.1-py3.7
     uses: ./.github/workflows/_linux-build.yml
     with:
-      build-environment: linux-bionic-rocm5.1-py3.7
       docker-image-name: pytorch-linux-bionic-rocm5.1-py3.7
       sync-tag: rocm-build
 
